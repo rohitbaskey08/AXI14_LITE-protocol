@@ -166,7 +166,7 @@ The simulation waveform confirms:
 Save your waveform screenshot as:
 
 ```text
-waveform.jpg
+waveform.png
 ```
 
 Then place it inside the project folder.
@@ -174,10 +174,10 @@ Then place it inside the project folder.
 The image will automatically display below.
 
 ```md
-![Waveform](waveform.jpg)
+![Waveform](waveform.png)
 ```
 
-![Waveform](waveform.jpg)
+![Waveform](waveform.png)
 
 ---
 
@@ -263,7 +263,7 @@ run all
 # Clone Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/rohitbaskey08/AXI14_LITE-protocol.git
 ```
 
 ---
@@ -275,7 +275,7 @@ git init
 git add .
 git commit -m "Added AXI4-Lite RAM Controller Project"
 git branch -M main
-git remote add origin https://github.com/rohit_baskey08/AXI14_LITE-protocol.git
+git remote add origin https://github.com/rohitbaskey08/AXI14_LITE-protocol.git
 git push -u origin main
 ```
 
