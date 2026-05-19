@@ -163,20 +163,6 @@ The simulation waveform confirms:
 
 # Waveform
 
-Save your waveform screenshot as:
-
-```text
-waveform.png
-```
-
-Then place it inside the project folder.
-
-The image will automatically display below.
-
-```md
-![Waveform](waveform.png)
-```
-
 ![Waveform](waveform.png)
 
 ---
@@ -214,70 +200,6 @@ TEST3 PASS
 | Verilog HDL | Hardware Description Language |
 | Xilinx Vivado | Simulation Tool |
 | AXI4-Lite | Communication Protocol |
-
----
-
-# How to Run the Project
-
-## Step 1: Open Vivado
-
-Create a new project and add the following files:
-
-```text
-ram_design.v
-axi_top_ram.v
-tb_axi_top_ram.v
-```
-
----
-
-## Step 2: Set Top Module
-
-Set:
-
-```text
-tb_axi_top_ram.v
-```
-
-as the **Top Module**.
-
----
-
-## Step 3: Run Simulation
-
-Click:
-
-```text
-Run Simulation → Run Behavioral Simulation
-```
-
-Or use TCL console:
-
-```tcl
-launch_simulation
-run all
-```
-
----
-
-# Clone Repository
-
-```bash
-git clone https://github.com/rohitbaskey08/AXI14_LITE-protocol.git
-```
-
----
-
-# GitHub Upload Commands
-
-```bash
-git init
-git add .
-git commit -m "Added AXI4-Lite RAM Controller Project"
-git branch -M main
-git remote add origin https://github.com/rohitbaskey08/AXI14_LITE-protocol.git
-git push -u origin main
-```
 
 ---
 
